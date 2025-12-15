@@ -2,7 +2,7 @@
 
 async function getWeather(city) {
 try {
-    let apikey = `8f81216b27b979bac1531a19420eaa81`;
+    let apikey = `${apikey}`;
 
     let raw = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`
