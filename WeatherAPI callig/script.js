@@ -8,7 +8,7 @@ try {
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`
     );
 
-    if (!raw.ok) {
+    if (!raw.ok) {  ``
     throw new Error("City not found, Something went wrong");
     }
     let real = await raw.json();
